@@ -23,7 +23,7 @@ RSpec.describe PostsController, type: :controller do
     it 'should show a form for a new post' do
       get :new
 
-      expect(response.body).to include("Create Post")      
+      expect(response.body).to include("Create Post")
     end
   end
 end
